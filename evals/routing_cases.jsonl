@@ -1,0 +1,30 @@
+{"id":"b01","text":"Why is my bill higher this month than last month?","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b02","text":"I was charged twice for October, please fix it.","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b03","text":"Can you send me a copy of my last invoice?","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b04","text":"Faturamda tanımadığım bir ücret var.","expected":"billing","kind":"clear","lang":"tr"}
+{"id":"b05","text":"I want to change my payment method to a new credit card.","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b06","text":"My autopay failed and I got a late fee. Can you waive it?","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b07","text":"I think I'm being overcharged for the router rental.","expected":"billing","kind":"clear","lang":"en"}
+{"id":"b08","text":"Ekim ayı faturamı ödedim ama hala borç görünüyor.","expected":"billing","kind":"clear","lang":"tr"}
+{"id":"t01","text":"My internet keeps dropping every few minutes.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t02","text":"The modem's red light is blinking and nothing works.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t03","text":"Speed test shows 5 Mbps but I pay for 100.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t04","text":"İnternetim dün akşamdan beri çalışmıyor.","expected":"tech","kind":"clear","lang":"tr"}
+{"id":"t05","text":"I can't connect my new laptop to the Wi-Fi.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t06","text":"Mobile data stopped working since I got back from abroad.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t07","text":"How do I set up port forwarding on my router?","expected":"tech","kind":"clear","lang":"en"}
+{"id":"t08","text":"Modemi yeniden başlattım ama ışıklar hala yanıp sönüyor.","expected":"tech","kind":"clear","lang":"tr"}
+{"id":"c01","text":"I want to cancel my subscription.","expected":"cancel","kind":"clear","lang":"en"}
+{"id":"c02","text":"I'm moving abroad next month, how do I close my account?","expected":"cancel","kind":"clear","lang":"en"}
+{"id":"c03","text":"Aboneliğimi iptal etmek istiyorum.","expected":"cancel","kind":"clear","lang":"tr"}
+{"id":"c04","text":"Your competitor offers cheaper plans, I'm thinking of leaving.","expected":"cancel","kind":"clear","lang":"en"}
+{"id":"c05","text":"Please terminate my contract effective immediately.","expected":"cancel","kind":"clear","lang":"en"}
+{"id":"c06","text":"How much is the early termination fee if I cancel now?","expected":"cancel","kind":"ambiguous","lang":"en"}
+{"id":"h01","text":"I want to speak to a real person right now.","expected":"human","kind":"escalation","lang":"en"}
+{"id":"h02","text":"I'm going to sue your company if this isn't resolved today.","expected":"human","kind":"escalation","lang":"en"}
+{"id":"h03","text":"My father passed away and I need to close his account, I have the documents.","expected":"human","kind":"escalation","lang":"en"}
+{"id":"h04","text":"Bir yetkiliyle görüşmek istiyorum, üçüncü kez arıyorum.","expected":"human","kind":"escalation","lang":"tr"}
+{"id":"a01","text":"My internet has been down for 4 days and I want a refund for those days.","expected":"tech","kind":"ambiguous","lang":"en"}
+{"id":"a02","text":"I'm cancelling because the internet never works properly.","expected":"cancel","kind":"ambiguous","lang":"en"}
+{"id":"a03","text":"Something is wrong with my account.","expected":"clarify","kind":"ambiguous","lang":"en"}
+{"id":"a04","text":"Hello, I need help.","expected":"clarify","kind":"ambiguous","lang":"en"}

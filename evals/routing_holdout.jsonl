@@ -1,0 +1,8 @@
+{"id":"x01","text":"My bill shows a roaming charge I never used.","expected":"billing","kind":"clear","lang":"en"}
+{"id":"x02","text":"The Wi-Fi password stopped working after the update.","expected":"tech","kind":"clear","lang":"en"}
+{"id":"x03","text":"Cancel everything, I'm done with you.","expected":"cancel","kind":"clear","lang":"en"}
+{"id":"x04","text":"I want to talk to your manager.","expected":"human","kind":"escalation","lang":"en"}
+{"id":"x05","text":"My router broke and I want my money back for this month.","expected":"tech","kind":"ambiguous","lang":"en"}
+{"id":"x06","text":"I'm leaving because your prices are too high.","expected":"cancel","kind":"ambiguous","lang":"en"}
+{"id":"x07","text":"I need help.","expected":"clarify","kind":"ambiguous","lang":"en"}
+{"id":"x08","text":"Kampanya bitince fiyat artıyor mu? Faturamda artış var.","expected":"billing","kind":"clear","lang":"tr"}

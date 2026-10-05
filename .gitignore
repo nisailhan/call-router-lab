@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Evaluation run results
+evals/results/*.json
+!evals/results/.gitkeep
