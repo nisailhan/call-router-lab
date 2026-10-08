@@ -24,3 +24,6 @@ env/
 # Evaluation run results
 evals/results/*.json
 !evals/results/.gitkeep
+
+# ADK web yerel oturum verisi
+.adk/

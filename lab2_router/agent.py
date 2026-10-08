@@ -1,7 +1,8 @@
 """LAB 2 - Yonlendirici + uzman ajanlar. 5 bosluk (TODO) doldurulacak.
 
-Her TODO satirini LAB.md'deki kodla DEGISTIRIN (satirin tamamini).
+Her "TODO: REPLACE_..." satirini LAB.md'deki kodla DEGISTIRIN (satirin tamamini).
 Takilirsaniz: lab2_router_solution/agent.py cozumun kendisidir.
+Not: ROUTER_POLICY satiri Lab 3'e aittir, Lab 2'de dokunmayin.
 """
 from google.adk.agents import Agent
 
@@ -41,12 +42,17 @@ cancel_agent = Agent(
     disallow_transfer_to_peers=True,
 )
 
-# --- Yonlendirici ---
+# --- Yonlendirici talimati ---
+ROUTER_INSTRUCTION = ""  # TODO: REPLACE_ROUTER_INSTRUCTION
+
+# LAB 3'te doldurulacak (simdilik bos birakin):
+ROUTER_POLICY = ""  # LAB 3: REPLACE_ROUTER_POLICY
+
 root_agent = Agent(
     name="router",
     model=MODEL,
     description="Front-line call router for Nimbus Telecom.",
-    instruction="TODO: REPLACE_ROUTER_INSTRUCTION",
+    instruction=ROUTER_INSTRUCTION + ROUTER_POLICY,
     tools=[handoff_to_human],
     sub_agents=[],  # TODO: REPLACE_SUBAGENTS
 )

@@ -95,6 +95,20 @@ def test_end_to_end_transfer_with_fake():
     assert "router" in authors and "tech_agent" in authors, authors
 
 
+def test_specialists_do_not_ask_for_national_id():
+    from shared.agents import SPECIALIST_INSTRUCTIONS
+    for name, text in SPECIALIST_INSTRUCTIONS.items():
+        assert "ONLY for the customer id" in text and "national ID" in text, name
+
+
+def test_a2a_router_structure():
+    from shared.agents import A2A_TECH_CARD_URL
+    agent = build_router(guarded=True, remote_tech_url=A2A_TECH_CARD_URL)
+    kinds = {a.name: type(a).__name__ for a in agent.sub_agents}
+    assert kinds == {"billing_agent": "LlmAgent", "tech_agent": "RemoteA2aAgent",
+                     "cancel_agent": "LlmAgent"}, kinds
+
+
 if __name__ == "__main__":
     for name, fn in list(globals().items()):
         if name.startswith("test_"):

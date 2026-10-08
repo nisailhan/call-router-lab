@@ -1,6 +1,6 @@
 """LAB 2 COZUMU. Takilan katilimcilar bu klasore gecip Lab 3'e devam eder.
 
-Lab 3'te duzenlenecek yer: asagidaki INSTRUCTION. (Tam politika surumu: shared/agents.py -> ROUTER_V2)
+Lab 3'te degistirilecek yer: POLICY satiri (altta).
 """
 from shared.agents import build_router
 
@@ -10,4 +10,7 @@ billing_agent, tech_agent or cancel_agent.
 If the customer asks for a human, call handoff_to_human.
 Do not try to solve the problem yourself."""
 
-root_agent = build_router(instruction=INSTRUCTION, guarded=False)
+# LAB 3'te doldurulacak (simdilik bos birakin):
+POLICY = ""  # LAB 3: REPLACE_ROUTER_POLICY
+
+root_agent = build_router(instruction=INSTRUCTION + POLICY, guarded=False)
