@@ -3,7 +3,6 @@
 60 dakikalık workshop için lab paketi.
 
 - **Katılımcılar:** [`LAB.md`](LAB.md)
-- **Eğitmen:** [`INSTRUCTOR.md`](INSTRUCTOR.md) (şema, akış, ön hazırlık, demo listesi)
 - **Örnek sorular:** [`ORNEK_SORULAR.md`](ORNEK_SORULAR.md) (her uygulama için kopyala-yapıştır mesajlar)
 
 ```
